@@ -392,6 +392,8 @@ alias of:N*T*Carm,coresight-static-replicator coresight_replicator
 alias of:N*T*Carm,coresight-static-replicatorC* coresight_replicator
 alias amba:d???BB909 coresight_replicator
 alias amba:d???BB9EC coresight_replicator
+alias of:N*T*Cmdm,mi_t1_chip gpio_mi_t1
+alias of:N*T*Cmdm,mi_t1_chipC* gpio_mi_t1
 alias platform:hdmi-audio-codec snd_soc_hdmi_codec
 alias of:N*T*Cqcom,volcano-pinctrl pinctrl_volcano
 alias of:N*T*Cqcom,volcano-pinctrlC* pinctrl_volcano
@@ -419,6 +421,8 @@ alias of:N*T*Cqcom,msm8974-tcsr-mutex qcom_hwspinlock
 alias of:N*T*Cqcom,msm8974-tcsr-mutexC* qcom_hwspinlock
 alias of:N*T*Cqcom,msm8994-tcsr-mutex qcom_hwspinlock
 alias of:N*T*Cqcom,msm8994-tcsr-mutexC* qcom_hwspinlock
+alias of:N*T*Chl7603 hl7603
+alias of:N*T*Chl7603C* hl7603
 alias amba:d???[37BF]B968 coresight_tpdm
 alias of:N*T*Cqcom,pineapple-gcc gcc_pineapple
 alias of:N*T*Cqcom,pineapple-gccC* gcc_pineapple
@@ -438,6 +442,9 @@ alias of:N*T*Clinksys,ns-partitionsC* ofpart
 alias char-major-21-* sg
 alias of:N*T*Cqcom,iommu-dma qcom_iommu_util
 alias of:N*T*Cqcom,iommu-dmaC* qcom_iommu_util
+alias xiaomi-fp mi_fp
+alias of:N*T*Cxiaomi,xiaomi-fp mi_fp
+alias of:N*T*Cxiaomi,xiaomi-fpC* mi_fp
 alias usbfunc:cser usb_f_cdev
 alias amba:d???F0C?? coresight_trace_noc
 alias of:N*T*Cqcom,pineapple-dispcc dispcc_pineapple
@@ -587,6 +594,7 @@ alias of:N*T*Cqcom,pmk8350-rtc rtc_pm8xxx
 alias of:N*T*Cqcom,pmk8350-rtcC* rtc_pm8xxx
 alias amba:d???BB962 coresight_stm
 alias amba:d???BB963 coresight_stm
+alias platform:optee mitee_dlkm
 alias of:N*T*Cqcom,dwc-usb3-msm dwc3_msm
 alias of:N*T*Cqcom,dwc-usb3-msmC* dwc3_msm
 alias of:N*T*Cqcom,pineapple-tcsrcc tcsrcc_pineapple

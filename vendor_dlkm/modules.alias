@@ -505,6 +505,8 @@ alias of:N*T*Cqcom,aperture camera
 alias of:N*T*Cqcom,apertureC* camera
 alias of:N*T*Cqcom,cam-i2c-aperture camera
 alias of:N*T*Cqcom,cam-i2c-apertureC* camera
+alias of:N*T*Cmdm,mi_t1_chip gpio_mi_t1
+alias of:N*T*Cmdm,mi_t1_chipC* gpio_mi_t1
 alias platform:hdmi-audio-codec snd_soc_hdmi_codec
 alias of:N*T*Cst,st21nfc stm_nfc_i2c
 alias of:N*T*Cst,st21nfcC* stm_nfc_i2c
@@ -550,9 +552,6 @@ alias platform:i2c_geni i2c_msm_geni
 alias of:N*T*Cqcom,i2c-geni i2c_msm_geni
 alias of:N*T*Cqcom,i2c-geniC* i2c_msm_geni
 alias platform:sys_pm_vx sys_pm_vx
-alias spi:synaptics_tcm_spi synaptics_tcm2
-alias of:N*T*Csynaptics,tcm-spi synaptics_tcm2
-alias of:N*T*Csynaptics,tcm-spiC* synaptics_tcm2
 alias fixed-partitions ofpart
 alias ofoldpart ofpart
 alias of:N*T*Cfixed-partitions ofpart
@@ -562,6 +561,9 @@ alias of:N*T*Cbrcm,bcm4908-partitionsC* ofpart
 alias of:N*T*Clinksys,ns-partitions ofpart
 alias of:N*T*Clinksys,ns-partitionsC* ofpart
 alias char-major-21-* sg
+alias xiaomi-fp mi_fp
+alias of:N*T*Cxiaomi,xiaomi-fp mi_fp
+alias of:N*T*Cxiaomi,xiaomi-fpC* mi_fp
 alias usbfunc:cser usb_f_cdev
 alias amba:d???F0C?? coresight_trace_noc
 alias platform:spmi-temp-alarm qcom_spmi_temp_alarm
@@ -700,6 +702,7 @@ alias of:N*T*Cqcom,pm8775-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8775-gpioC* pinctrl_spmi_gpio
 alias amba:d???BB962 coresight_stm
 alias amba:d???BB963 coresight_stm
+alias platform:optee mitee_dlkm
 alias of:N*T*Cqcom,dwc-usb3-msm dwc3_msm
 alias of:N*T*Cqcom,dwc-usb3-msmC* dwc3_msm
 alias of:N*T*Cqcom,cdsp-loader cdsp_loader
@@ -853,6 +856,8 @@ alias of:N*T*Cqcom,rpmh-stats-v4 qcom_stats
 alias of:N*T*Cqcom,rpmh-stats-v4C* qcom_stats
 alias of:N*T*Cqcom,sdm845-rpmh-stats qcom_stats
 alias of:N*T*Cqcom,sdm845-rpmh-statsC* qcom_stats
+alias of:N*T*Cfocal,touch-spi focaltech_touch
+alias of:N*T*Cfocal,touch-spiC* focaltech_touch
 alias of:N*T*Cqcom,cnss cnss2
 alias of:N*T*Cqcom,cnssC* cnss2
 alias of:N*T*Cqcom,cnss-qca6290 cnss2

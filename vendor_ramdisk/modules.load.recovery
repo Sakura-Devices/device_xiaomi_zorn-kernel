@@ -68,7 +68,6 @@ qcom_iommu_util.ko
 iommu-logger.ko
 qti-regmap-debugfs.ko
 zram.ko
-mpbe.ko
 mi_power.ko
 hwid.ko
 qcom-i2c-pmic.ko
@@ -77,11 +76,14 @@ qcom_dma_heaps.ko
 spmi-pmic-arb.ko
 rtc-pm8xxx.ko
 qcom-reboot-reason.ko
+hl7603.ko
+xm_power.ko
 qcom_tsens.ko
 thermal_pause.ko
 bcl_pmic5.ko
 cpu_hotplug.ko
 thermal_minidump.ko
+qti_thermal_vendor_hooks.ko
 qcom-cpufreq-hw.ko
 sdhci-msm.ko
 cqhci.ko
@@ -115,7 +117,6 @@ dump_display.ko
 mi_schedule.ko
 metis.ko
 mist.ko
-rt_mod.ko
 qrtr.ko
 qrtr-gunyah.ko
 msm_sysstats.ko
@@ -127,6 +128,7 @@ mhi_dev_satellite.ko
 phy-qcom-ufs-qmp-v4.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
+gpio-mi-t1.ko
 pwm-qti-lpg.ko
 pci-msm-drv.ko
 qcom-spmi-wled.ko
@@ -194,7 +196,6 @@ qti-ocp-notifier.ko
 hvc_gunyah.ko
 msm_geni_serial.ko
 rdbg.ko
-xlogchar.ko
 qcom_iommu_debug.ko
 drm_dp_aux_bus.ko
 drm_display_helper.ko
@@ -223,7 +224,7 @@ redriver.ko
 nb7vpq904m.ko
 pm8941-pwrkey.ko
 qcom-hv-haptics.ko
-goodix_fod.ko
+mi_fp.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
 ir-spi.ko
@@ -231,6 +232,7 @@ qcom-dload-mode.ko
 qcom-pon.ko
 reboot-mode.ko
 qti_battery_charger.ko
+charger_partition.ko
 qcom-spmi-temp-alarm.ko
 bcl_soc.ko
 qti_qmi_cdev.ko
@@ -251,11 +253,10 @@ qcom_lpm.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
 mi_mempool.ko
-proc_exit.ko
-mi_wmark.ko
 binder_prio.ko
 mi_log.ko
 mi_exception_log.ko
+mi_mem_engine.ko
 qcom_pil_info.ko
 rproc_qcom_common.ko
 qcom_q6v5.ko
@@ -285,8 +286,9 @@ millet_hs.ko
 millet_binder.ko
 millet_sig.ko
 millet_oem_cgroup.ko
+perfmgr.ko
 migt.ko
-speed_touch.ko
+unionpower.ko
 powersave.ko
 ofpart.ko
 chipreg.ko

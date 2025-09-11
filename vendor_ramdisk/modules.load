@@ -68,7 +68,6 @@ qcom_iommu_util.ko
 iommu-logger.ko
 qti-regmap-debugfs.ko
 zram.ko
-mpbe.ko
 mi_power.ko
 hwid.ko
 qcom-i2c-pmic.ko
@@ -77,11 +76,14 @@ qcom_dma_heaps.ko
 spmi-pmic-arb.ko
 rtc-pm8xxx.ko
 qcom-reboot-reason.ko
+hl7603.ko
+xm_power.ko
 qcom_tsens.ko
 thermal_pause.ko
 bcl_pmic5.ko
 cpu_hotplug.ko
 thermal_minidump.ko
+qti_thermal_vendor_hooks.ko
 qcom-cpufreq-hw.ko
 sdhci-msm.ko
 cqhci.ko
@@ -115,9 +117,10 @@ dump_display.ko
 mi_schedule.ko
 metis.ko
 mist.ko
-rt_mod.ko
 qrtr.ko
 qrtr-gunyah.ko
+mitee_dlkm.ko
 bootinfo.ko
 debug_ext.ko
+mitee_dlkm.ko
 swinfo.ko
